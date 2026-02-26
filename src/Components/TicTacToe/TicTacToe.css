@@ -1,0 +1,55 @@
+.container{
+   text-align: center;
+}
+
+.title{
+    margin-top: 50px;
+   color: #fff;
+   font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span{
+    color: #26ffcb;
+    font-size: 60px;
+    margin-left: 15px;
+}
+
+.reset-btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #26ffcb;
+    color: #0f1B21;
+    border-radius: 50px;
+
+}
+
+.boxes{
+    width: 180px;
+    height: 180px;
+    background: #0f3540;
+    display: flex;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.board{
+    display: flex;
+    width: 600px;
+    height: 594px;
+    margin:  auto;
+}
+
+.boxes img{
+margin: 50px 50px;
+}
